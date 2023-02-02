@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace BookingSystem
 {
-    public class UserInput
+    public class HandleBooking
     {
         //skapar en lista
         private List<Booking> _bookings;
 
-        public UserInput()
+        public HandleBooking()
         {
             _bookings = new List<Booking>();
         }

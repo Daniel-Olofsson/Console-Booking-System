@@ -10,7 +10,7 @@ namespace BookingSystem
             // var for class obj
             int userID = 0;
             int bookID = 0;
-            var inputHandler = new UserInput();
+            var inputHandler = new HandleBooking();
             var userOne = new Person("Daniel", "Olofsson", userID++);
             var userTwo = new Person("Hades", "kattson", userID++);
             DateTime elevenFeb = new DateTime(2023, 02, 11, 13, 0, 0);
